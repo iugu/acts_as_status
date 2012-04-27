@@ -20,6 +20,10 @@ module ActsAsStatus
       end
     end
 
+    (class << self; self; end).send(:define_method, "available_#{field}") do
+      valid_values
+    end
+
   end
 end
 
