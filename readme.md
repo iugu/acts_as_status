@@ -1,7 +1,7 @@
 Acts As Status
 =================
 
-Installing
+Installation
 -----------
 **On your Project's Gemfile**
 > gem 'acts\_as\_status'
