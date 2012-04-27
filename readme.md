@@ -3,7 +3,7 @@ Acts As Status
 
 Installation
 -----------
-**On your Project's Gemfile**
+**In your Project's Gemfile**
 > gem 'acts\_as\_status'
 
 Adding status to your model
