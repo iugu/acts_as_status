@@ -26,6 +26,7 @@ Instance Methods
 Class Methods
 ----------
 **Searching records by status**
+
 It will give you a method for each status you set has valid
 
 **Ex:**
