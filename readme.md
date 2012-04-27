@@ -1,6 +1,11 @@
 Acts As Status
 =================
 
+Installing
+-----------
+**On your Project's Gemfile**
+> gem 'acts\_as\_status'
+
 Adding status to your model
 ---------
 
@@ -21,6 +26,7 @@ Class Methods
 
 > Foo.only_new
 > 
+> => Return an array with all foos which status == "new"
 
 
 
