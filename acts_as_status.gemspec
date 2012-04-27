@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = ActsAsStatus::VERSION
   s.authors     = ["alepaez"]
   s.email       = ["alepaezseq@gmail.com"]
-  s.homepage    = "www.iugu.com.br"
+  s.homepage    = "https://github.com/iugu/acts_as_status"
   s.summary     = %q{Make ActiveRecord Attributes to act as status}
   s.description = %q{Make ActiveRecord Attributes to act as status}
 
