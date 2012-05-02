@@ -15,9 +15,6 @@ module ActsAsStatus
         where(["#{field} = ?", valid_value])
       end
 
-      (class << self; self; end).send(:define_method, "#{valid_value}") do
-        valid_value
-      end
     end
 
     (class << self; self; end).send(:define_method, "available_#{field}") do
