@@ -47,7 +47,7 @@ It will give you a method for each status you set has valid
 
 **Getting the available status for your field**
 
-available_<field> will give you the availables status for that field
+available_\<field\> will give you the availables status for that field
 
 **Ex:**
 
