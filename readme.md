@@ -22,6 +22,12 @@ Instance Methods
 >
 > => "new"
 
+** Want to know if a record is waiting? **
+
+> @foo.waiting?
+> 
+> => true or false
+
 
 Class Methods
 ----------
@@ -39,5 +45,14 @@ It will give you a method for each status you set has valid
 >
 > => Return all foos which status == "waiting"
 
+**Getting the available status for your field**
+
+available_<field> will give you the availables status for that field
+
+**Ex:**
+
+> Foo.available_status
+>
+> => [ "new", "waiting", "executing", "blocked", "finished" ]
 
 
