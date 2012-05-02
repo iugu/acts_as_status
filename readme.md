@@ -22,7 +22,7 @@ Instance Methods
 >
 > => "new"
 
-** Want to know if a record is waiting? **
+**To know if a record is waiting**
 
 > @foo.waiting?
 > 
