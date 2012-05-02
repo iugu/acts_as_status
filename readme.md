@@ -8,9 +8,13 @@ Installation
 
 How to use it
 ---------
-**Add it to your model**
+**In your model**
 
 > acts\_as\_status :status, %w[new waiting executing blocked finished]
+
+**In your migration**
+
+> add_column :foos, :status, :string
 
 Instance Methods
 ----------
