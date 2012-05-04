@@ -12,6 +12,7 @@ How to use it
 
 > acts\_as\_status :status, %w[new waiting executing blocked finished]
 
+
 **In your migration**
 
 > add_column :foos, :status, :string
