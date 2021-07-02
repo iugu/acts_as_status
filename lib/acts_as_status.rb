@@ -11,7 +11,7 @@ module ActsAsStatus
         self.send("#{field}") == valid_value
       end
 
-      (class << self; self; end).send(:definemethod, "only#{valid_value}") do
+      (class << self; self; end).send(:define_method, "only#{valid_value}") do
         where(["#{self.table_name}.#{field} = ?", valid_value])
       end
 
