@@ -12,7 +12,7 @@ module ActsAsStatus
       end
 
       (class << self; self; end).send(:define_method, "only_#{valid_value}") do
-        where(["#{field} = ?", valid_value])
+        where(["#{self.table_name}.#{field} = ?", valid_value])
       end
 
     end
